@@ -1,0 +1,47 @@
+/* .backhide {
+  background-image: url(https://static8.depositphotos.com/1229718/913/i/600/depositphotos_9137593-stock-photo-dance-floor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.button-wrapper {
+  margin-left: 41%;
+  margin-top: 22%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#button-box {
+  position: relative;
+}
+
+#btn-1 {
+  background-color: #ffb800;
+  border: 0;
+  color: #f1ff55;
+  font-size: 2.5rem;
+  border-radius: 50px;
+  height: 60px;
+}
+#btn-1:hover {
+  background-color: #9a6f00;
+  color: #b2bd3f;
+  box-shadow: 10px 5px 5px #b2bd3f;
+  transition: 1s;
+  transition-delay: 0.2s;
+}
